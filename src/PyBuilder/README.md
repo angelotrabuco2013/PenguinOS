@@ -1,6 +1,6 @@
-# PyEdit
+# PyBuilder
 
-PyEdit is a Python code editor with Syntax Highlighting.
+PyBuilder is a Python code editor with Syntax Highlighting.
 
 ## Running the code:
 ##### 1. Download the code and extract it.
@@ -11,6 +11,6 @@ pip install -r requirements.txt
 ```
 ##### 4. Run main.py:
 ```
-py main.py
+python main.py
 ```
 #### Result: The code should now work and open a GUI.
