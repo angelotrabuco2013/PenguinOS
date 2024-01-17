@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6AC2EBC4-5FA6-4A37-A9C6-1CCAB11CD216}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BPOSexplorer</RootNamespace>
+    <AssemblyName>BPOSexplorer</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>BPOSexplorer.ico</ApplicationIcon>
+    <StartupObject>BPOSexplorer.My.MyApplication</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="about.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="about.Designer.cs">
+      <DependentUpon>about.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationBar.cs" />
+    <Compile Include="barsetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="barsetting.Designer.cs">
+      <DependentUpon>barsetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="blackness.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="blackness.Designer.cs">
+      <DependentUpon>blackness.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bpsc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bpsc.Designer.cs">
+      <DependentUpon>bpsc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="endsession.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="endsession.Designer.cs">
+      <DependentUpon>endsession.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Feedback.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Feedback.Designer.cs">
+      <DependentUpon>Feedback.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form.Designer.cs">
+      <DependentUpon>Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="helptopics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="helptopics.Designer.cs">
+      <DependentUpon>helptopics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="history.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="history.Designer.cs">
+      <DependentUpon>history.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="modMain.cs" />
+    <Compile Include="My\InternalXmlHelper.cs" />
+    <Compile Include="My\MyApplication.cs" />
+    <Compile Include="My\MyComputer.cs" />
+    <Compile Include="My\MyProject.cs" />
+    <Compile Include="My\MySettings.cs" />
+    <Compile Include="My\MySettings.Designer.cs">
+      <DependentUpon>MySettings.settings</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="My\MySettingsProperty.cs" />
+    <Compile Include="My\Resources\Resources.cs" />
+    <Compile Include="NewExplorer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewExplorer.Designer.cs">
+      <DependentUpon>NewExplorer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pane.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pane.Designer.cs">
+      <DependentUpon>pane.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="runbox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="runbox.Designer.cs">
+      <DependentUpon>runbox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="screenres.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="screenres.Designer.cs">
+      <DependentUpon>screenres.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wallpaper.cs" />
+    <Compile Include="WallpaperStyle.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="about.resources" />
+    <EmbeddedResource Include="barsetting.resources" />
+    <EmbeddedResource Include="blackness.resources" />
+    <EmbeddedResource Include="bpsc.resources" />
+    <EmbeddedResource Include="endsession.resources" />
+    <EmbeddedResource Include="exe.licenses" />
+    <EmbeddedResource Include="Feedback.resources" />
+    <EmbeddedResource Include="Form.resources" />
+    <EmbeddedResource Include="helptopics.resources" />
+    <EmbeddedResource Include="history.resources" />
+    <EmbeddedResource Include="MainForm.resources" />
+    <EmbeddedResource Include="NewExplorer.resources" />
+    <EmbeddedResource Include="pane.resources" />
+    <EmbeddedResource Include="Resources.resources" />
+    <EmbeddedResource Include="runbox.resources" />
+    <EmbeddedResource Include="screenres.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.manifest" />
+    <None Include="My\MySettings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>MySettings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
