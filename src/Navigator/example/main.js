@@ -8,7 +8,7 @@ function createWindow() {
   browser = new BrowserLikeWindow({
     controlHeight: 99,
     controlPanel: fileUrl(`${__dirname}/renderer/control.html`),
-    startPage: 'https://127.0.0.1/welcome.php',
+    startPage: 'http://127.0.0.1/welcome.php',
     blankTitle: 'New tab',
     debug: true // will open controlPanel's devtools
   });
