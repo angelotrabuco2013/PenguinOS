@@ -51,7 +51,7 @@
 			global::System.Drawing.Size size = new global::System.Drawing.Size(296, 39);
 			label2.Size = size;
 			this.Label1.TabIndex = 0;
-			this.Label1.Text = "angelotrabuco2013.github.io\r\nVersion 1.0 (Build 8056)\r\nCopyright (C) 2023 by AST and Microsoft Corporation.";
+			this.Label1.Text = "angelotrabuco2013.github.io\r\nVersion 1.0 (Build 10240)\r\nCopyright (C) 2024 by AST and Microsoft Corporation.";
 			global::System.Windows.Forms.Control button = this.Button1;
 			point = new global::System.Drawing.Point(328, 308);
 			button.Location = point;
