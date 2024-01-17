@@ -1,4 +1,8 @@
-# electron-as-browser
+# Penguin OS Navigator
+
+A modified version of electron-as-browser.
+
+## Original content
 
 ![version](https://img.shields.io/npm/v/electron-as-browser.svg?style=flat-square)![downloads](https://img.shields.io/npm/dt/electron-as-browser.svg?style=flat-square)![license](https://img.shields.io/npm/l/electron-as-browser.svg?style=flat-square)
 
